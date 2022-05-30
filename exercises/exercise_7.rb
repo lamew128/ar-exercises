@@ -10,3 +10,5 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+puts Store.create(:name => 'qqqqq').errors.messages
+puts @store2.employees.create(first_name: "Zxcv", hourly_rate: 40).errors.messages
